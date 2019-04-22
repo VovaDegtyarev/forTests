@@ -34,6 +34,9 @@ namespace SecondCode
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("hello");
+            Console.WriteLine("fgit");
             using (BookContext bk = new BookContext())
             {
                 var books = bk.booklist;
